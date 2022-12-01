@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import styles from "./jul.module.scss";
 import Image from 'next/image'
 import { useState } from "react";
-import { ImageAnimation } from "./components/ImageAnimation/ImageAnimation";
+import ImageAnimation from "./components/ImageAnimation/ImageAnimation";
 
 const Jul2022: NextPage = () => {
   // const classNamePic1 = ´${styles.large} ${styles.polaroid} ${styles.img1}´;    
