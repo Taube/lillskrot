@@ -11,7 +11,7 @@ interface ImageAnimationProps {
     rotate: number;
 }
 
-export const ImageAnimation = (props: ImageAnimationProps) => {
+const ImageAnimation = (props: ImageAnimationProps) => {
 
     let startXPos = props.size === "small" ? 450 : props.size === "large" ? 350 : 400;
     let startYPos = props.size === "small" ? 135 : props.size === "large" ? 0 : 70;
@@ -49,3 +49,5 @@ export const ImageAnimation = (props: ImageAnimationProps) => {
       </a>
     );
 };
+
+export default ImageAnimation;
