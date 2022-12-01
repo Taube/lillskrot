@@ -61,7 +61,7 @@ const Jul2022: NextPage = () => {
         "rotate": -8,
       }, 
       {
-        "imageUrl": "/imgs/Jul2022/Linnea2.jpg",
+        "imageUrl": "/imgs/Jul2022/linnea2.jpg",
         "text":"Ballerina",
         "size": "large",
         "top": 0,
@@ -69,7 +69,7 @@ const Jul2022: NextPage = () => {
         "rotate": 18,
       },
       {
-        "imageUrl": "/imgs/Jul2022/Linnea3.jpg",
+        "imageUrl": "/imgs/Jul2022/linnea3.jpg",
         "text":"Smidig",
         "size": "small",
         "top": 240,
@@ -77,7 +77,7 @@ const Jul2022: NextPage = () => {
         "rotate": 10,
       },
       {
-        "imageUrl": "/imgs/Jul2022/Linnea4.jpg",
+        "imageUrl": "/imgs/Jul2022/linnea4.jpg",
         "text":"Håller i benet",
         "size": "medium",
         "top": 30,
