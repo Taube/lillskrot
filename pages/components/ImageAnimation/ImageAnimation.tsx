@@ -13,7 +13,7 @@ interface ImageAnimationProps {
 
 const ImageAnimation = (props: ImageAnimationProps) => {
 
-    let startXPos = props.size === "small" ? 450 : props.size === "large" ? 350 : 400;
+    let startXPos = props.size === "small" ? 490 : props.size === "large" ? 390 : 440;
     let startYPos = props.size === "small" ? 135 : props.size === "large" ? 0 : 70;
     const [xPos, setXPos] = useState(startXPos);
     const [yPos, setYPos] = useState(startYPos);
@@ -25,7 +25,7 @@ const ImageAnimation = (props: ImageAnimationProps) => {
         setYPos(props.ypos);
         setRotate(props.rotate);
       console.log('Initial timeout!')}
-       , 500);
+       , 2500);
 
     return (
         <a 

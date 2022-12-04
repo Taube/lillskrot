@@ -10,8 +10,7 @@ const Jul2022: NextPage = () => {
 
     //const [extraClass, setExtraClass] = useState('');
     
-  
-    const imgJson2 = { "cards": [
+  const imgJson2 = { "cards": [
       {
         "imageUrl": "/imgs/Jul2022/leo3.jpg",
         "text":"God Jul",
@@ -65,7 +64,7 @@ const Jul2022: NextPage = () => {
         "text":"Ballerina",
         "size": "large",
         "top": 0,
-        "left": 680,
+        "left": 700,
         "rotate": 18,
       },
       {
@@ -129,7 +128,7 @@ const Jul2022: NextPage = () => {
         "text":"Skylt",
         "size": "medium",
         "top": 250,
-        "left": 850,
+        "left": 870,
         "rotate": 0,
       },
       {
@@ -137,7 +136,7 @@ const Jul2022: NextPage = () => {
         "text":"Inspiration",
         "size": "small",
         "top": 160,
-        "left": 990,
+        "left": 1000,
         "rotate": 8
       },
       {
@@ -145,7 +144,7 @@ const Jul2022: NextPage = () => {
         "text":"Inspiration",
         "size": "small",
         "top": 0,
-        "left": 920,
+        "left": 940,
         "rotate": 8,
       }, 
       {
@@ -178,7 +177,7 @@ const Jul2022: NextPage = () => {
         "size": "small",
         "top": 500,
         "left": 400,
-        "rotate": 18,
+        "rotate": 17,
       },
     ]};
 
