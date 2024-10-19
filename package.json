@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "lillskrot",
   "version": "1.0.0",
   "description": "Website template for Payload",
   "license": "MIT",
@@ -15,9 +15,12 @@
     "lint:fix": "cross-env NODE_OPTIONS=--no-deprecation next lint --fix",
     "payload": "cross-env NODE_OPTIONS=--no-deprecation payload",
     "reinstall": "cross-env NODE_OPTIONS=--no-deprecation rm -rf node_modules && rm pnpm-lock.yaml && pnpm --ignore-workspace install",
-    "start": "cross-env NODE_OPTIONS=--no-deprecation next start"
+    "start": "cross-env NODE_OPTIONS=--no-deprecation next start",
+    "deploy": "sst deploy --stage production",
+    "logs": "sst logs --stage production"
   },
   "dependencies": {
+    "@opentelemetry/api": "^1.9.0",
     "@payloadcms/db-postgres": "beta",
     "@payloadcms/live-preview-react": "beta",
     "@payloadcms/next": "beta",
@@ -41,7 +44,7 @@
     "jsonwebtoken": "9.0.2",
     "lexical": "0.18.0",
     "lucide-react": "^0.378.0",
-    "next": "15.0.0-canary.173",
+    "next": "15.0.0-canary.190",
     "payload": "beta",
     "payload-admin-bar": "^1.0.6",
     "prism-react-renderer": "^2.4.0",
@@ -49,6 +52,7 @@
     "react-dom": "19.0.0-rc-3edc000d-20240926",
     "react-hook-form": "7.45.4",
     "sharp": "0.32.6",
+    "sst": "3.2.31",
     "tailwind-merge": "^2.5.3",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -63,8 +67,8 @@
     "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
     "autoprefixer": "^10.4.20",
     "copyfiles": "^2.4.1",
-    "eslint": "^8.57.1",
-    "eslint-config-next": "15.0.0-canary.173",
+    "eslint": "^9.12.0",
+    "eslint-config-next": "15.0.0-canary.190",
     "postcss": "^8.4.47",
     "prettier": "^3.3.3",
     "tailwindcss": "^3.4.13",

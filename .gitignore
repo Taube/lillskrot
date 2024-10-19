@@ -7,5 +7,14 @@ node_modules
 .next
 .vercel
 
+# Files
+*.pem
+
 # Payload default media upload directory
 public/media/
+
+# sst
+.sst
+
+# open-next
+.open-next

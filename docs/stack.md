@@ -14,7 +14,7 @@ This installer set everything up including:
 ## SST
 SST is used to sync fullstack projects with AWS.
 
-Installed with commanbd: `pnpm create sst`
+Installed with commanbd: `pnpm dlx sst@latest init`
 
 This command automatically detected NextJS and set up depencencies for AWS.
 SOURCE: https://sst.dev/
